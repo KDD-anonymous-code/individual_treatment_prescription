@@ -1,13 +1,13 @@
 # ITE / MITE Experiments
-Experiments to compare ITE (Individual Treatment Effect)
-and MITE (post-Mediation Individual Treatment Effect) approaches on synthetical and real datasets.
+Experiments to compare ITE (Individual Prescription Effect)
+and C-IPE (Complianca aware Individual Prescription Effect) approaches on synthetical and real datasets.
 
-* ITE: `P(Y=1|T=1,X=x) - P(Y=1|T=0,X=x)`
-* MITE: `P(M=1|T=1,X=x) * (P(Y=1|M=1,X=x) - P(Y=1|M=0,X=x))`
+* IPE: `P(Y=1|P=1,X=x) - P(Y=1|P=0,X=x)`
+* C-IPE: `P(M=1|P=1,X=x) * (P(Y=1|M=1,X=x) - P(Y=1|M=0,X=x))`
 * where
   * `Y` is the outcome
-  * `T` is the treatment assigment
-  * `M` is the mediation variable
+  * `P` is the treatment prescription
+  * `T` is the evidence of treatment acceptation
   * `X` are individual features
 
 
