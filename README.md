@@ -48,7 +48,7 @@ You should obtain the same results as in `synth_results` folder.
 #### Get and convert the dataset
 Download [`criteo-uplift-v2.csv.gz`](http://go.criteo.net/criteo-research-uplift-v2.1.csv.gz)
 (311,422,618 bytes), i.e. the un-biased version presented in "erratum" section of
-http://cail.criteo.com/criteo-uplift-prediction-dataset.
+https://ailab.criteo.com/criteo-uplift-prediction-dataset/.
 
 (Optional) You may want to convert it into a pickle file to speed-up the experiments.
 ```
@@ -56,7 +56,7 @@ $ python run_criteo_dataset.py convert ./criteo-uplift-v2.csv.gz ./criteo-uplift
 ```
 Or directly:
 ```
-$ python run_criteo_dataset.py convert https://s3.us-east-2.amazonaws.com/criteo-uplift-dataset/criteo-uplift-v2.csv.gz ./criteo-uplift-v2.pkl.gz
+$ python run_criteo_dataset.py convert http://go.criteo.net/criteo-research-uplift-v2.1.csv.gz ./criteo-uplift-v2.pkl.gz
 ```
 
 ### Run experiments
