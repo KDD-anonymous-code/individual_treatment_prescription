@@ -1,6 +1,6 @@
 # IPE / C-IPE Experiments
 Experiments to compare IPE (Individual Prescription Effect)
-and C-IPE (Complianca aware Individual Prescription Effect) approaches on synthetical and real datasets.
+and C-IPE (Compliance aware Individual Prescription Effect) approaches on synthetical and real datasets.
 
 * IPE: `P(Y=1|P=1,X=x) - P(Y=1|P=0,X=x)`
 * C-IPE: `P(M=1|P=1,X=x) * (P(Y=1|M=1,X=x) - P(Y=1|M=0,X=x))`
