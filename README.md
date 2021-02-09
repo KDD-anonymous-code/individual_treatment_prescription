@@ -46,7 +46,7 @@ You should obtain the same results as in `synth_results` folder.
 
 ### On CRITEO-UPLIFT1 Dataset
 #### Get and convert the dataset
-Download [`criteo-uplift-v2.csv.gz`](https://s3.us-east-2.amazonaws.com/criteo-uplift-dataset/criteo-uplift-v2.csv.gz)
+Download [`criteo-uplift-v2.csv.gz`](http://go.criteo.net/criteo-research-uplift-v2.1.csv.gz)
 (311,422,618 bytes), i.e. the un-biased version presented in "erratum" section of
 http://cail.criteo.com/criteo-uplift-prediction-dataset.
 
